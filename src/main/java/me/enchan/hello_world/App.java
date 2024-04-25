@@ -1,11 +1,20 @@
+//
+// Spigot plugin example
+//
 package me.enchan.hello_world;
 
-/**
- * Hello world!
- *
- */
-public class App {
-    public static void main(String[] args) {
-        System.out.println("Hello World!");
+import org.bukkit.plugin.java.JavaPlugin;
+
+public class App extends JavaPlugin {
+
+    @Override
+    public void onEnable() {
+        this.getLogger().info("Plugin enabled");
     }
+
+    @Override
+    public void onDisable() {
+        this.getLogger().info("Plugin disabled");
+    }
+
 }
