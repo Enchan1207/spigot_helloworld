@@ -1,0 +1,5 @@
+main: me.enchan.hello_world.App
+name: hello_world
+version: "0.1.0"
+api: 1.16.2
+api-version: "1.17"
